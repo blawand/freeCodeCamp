@@ -2,16 +2,16 @@
   body {
     font-size: 12px;
   }
-  pre {
-    width: 400px;
-  }
 }
 
 
 body {
   font-family: Calibri;
   color: #f4eee0;
+  width: 100%;
   background-color: #393646;
+  padding-left: 1em;
+  overflow-x: hidden;
 }
 
 header {
@@ -71,6 +71,8 @@ pre {
   border-radius: 5px;
   padding: 0.8rem 1rem;
   width: 80%;
+  overflow-x: auto;
+  white-space: pre-wrap;
 }
 
 li {
